@@ -1,0 +1,7 @@
+docker run --name "NOMBRE" "IMAGEN" -> Crea y ejecuta un contenedor en base a una imagen
+-d -> Lo mantiene ejecutado
+-p -> Redirecciona los puertos
+
+docker stop "NOMBRE_CONTENEDOR" -> Detiene el contenedor
+docker ps -a -> Lista los contenedores e información varia (su estado, nombre, id...)
+docker rm "NOMBRE_CONTENEDOR" -> Elimina el contenedor
